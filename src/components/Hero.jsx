@@ -9,10 +9,10 @@ export default function Hero({}) {
           Hi, I am a developer with 2 years experience{" "}
         </p>
         <section className="flex gap-4">
-          <button className="rounded-lg bg-purple-500 px-4 py-2 text-white hover:bg-purple-700 active:bg-purple-800">
+          <button className="rounded-2xl bg-purple-500 px-8 py-3 text-white hover:bg-purple-700 active:bg-purple-800">
             Lets Talk
           </button>
-          <button>Lets Talk</button>
+          <button className="px-8 py-3 hover:bg-slate-200">Resume</button>
         </section>
       </section>
       <section className="min-w[400px]">
